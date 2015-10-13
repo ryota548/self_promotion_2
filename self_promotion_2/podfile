@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.3'
+use_frameworks!
+
+pod 'PageMenu'
+
+target 'self_promotion_2' do
+
+end
+
+target 'self_promotion_2Tests' do
+
+end
+
+target 'self_promotion_2UITests' do
+
+end
+

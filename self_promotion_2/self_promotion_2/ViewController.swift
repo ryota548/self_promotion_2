@@ -8,18 +8,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,SideMenuDelegate {
 
+    var sideMenu : SideMenu?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        sideMenu = SideMenu(sourceView: self.view, menuData: ["自己紹介", "これまでの自分", "これからの自分","まとめ"])
+        sideMenu!.delegate = self
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    func sideMenuDidSelectItemAtIndex(index: Int) {
+        sideMenu?.toggleMenu()
+    }
+    
+    @IBAction func toggleSideMenu(sender: AnyObject) {
+        sideMenu?.toggleMenu()
+    }
 
 }
 
