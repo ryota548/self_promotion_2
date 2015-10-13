@@ -17,7 +17,7 @@ import UIKit
 
 class SideMenu : NSObject, MenuTableViewControllerDelegate {
     
-    let menuWidth : CGFloat = 160.0
+    let menuWidth : CGFloat = 200.0
     let menuTableViewTopInset : CGFloat = 64.0 // if you use translusent navigation bar
     let sideMenuContainerView =  UIView()
     let sideMenuTableViewController = MenuTableViewController()
@@ -94,7 +94,7 @@ class SideMenu : NSObject, MenuTableViewControllerDelegate {
     func toggleMenu (shouldOpen: Bool) {
         animator.removeAllBehaviors()
         isMenuOpen = shouldOpen
-        let gravityDirectionX: CGFloat = (shouldOpen) ? 0.5 : -0.5;
+        let gravityDirectionX: CGFloat = (shouldOpen) ? 10.0 : -10.0;
         let pushMagnitude: CGFloat = (shouldOpen) ? 20.0 : -20.0;
         let boundaryPointX: CGFloat = (shouldOpen) ? menuWidth : -menuWidth-1.0;
         

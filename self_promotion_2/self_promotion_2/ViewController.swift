@@ -15,7 +15,7 @@ class ViewController: UIViewController,SideMenuDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        sideMenu = SideMenu(sourceView: self.view, menuData: ["自己紹介", "これまでの自分", "これからの自分","まとめ"])
+        sideMenu = SideMenu(sourceView: self.view, menuData: ["概要","自己紹介", "これまでの自分", "これからの自分","まとめ"])
         sideMenu!.delegate = self
         
     }
