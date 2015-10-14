@@ -19,7 +19,7 @@ class ViewController: UIViewController,SideMenuDelegate, PagingMenuControllerDel
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        sideMenu = SideMenu(sourceView: self.view, menuData: ["概要","自己紹介", "これまでの自分", "これからの自分","まとめ"])
+        sideMenu = SideMenu(sourceView: self.view, menuData: ["自己紹介", "これまでの自分", "これからの自分","まとめ"])
         sideMenu!.delegate = self
         
         storyboardSet()
@@ -38,11 +38,22 @@ class ViewController: UIViewController,SideMenuDelegate, PagingMenuControllerDel
         
         let nowFirstViewController = self.storyboard?.instantiateViewControllerWithIdentifier("NowFirstViewController") as! FirstViewController
         let nowSecondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("NowSecondViewController") as! SecondViewController
+        let nowThirdViewController = self.storyboard?.instantiateViewControllerWithIdentifier("NowThirdViewController") as! FirstViewController
+        let nowForthViewController = self.storyboard?.instantiateViewControllerWithIdentifier("NowForthViewController") as! FirstViewController
+        let nowFifthViewController = self.storyboard?.instantiateViewControllerWithIdentifier("NowFifthViewController") as! FirstViewController
         
+        let futureFirstViewController = self.storyboard?.instantiateViewControllerWithIdentifier("FutureFirstViewController") as! FirstViewController
+        let futureSecondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("FutureSecondViewController") as! FirstViewController
+        let futureThirdViewController = self.storyboard?.instantiateViewControllerWithIdentifier("FutureThirdViewController") as! FirstViewController
+        let futureForthViewController = self.storyboard?.instantiateViewControllerWithIdentifier("FutureForthViewController") as! FirstViewController
+        
+        let conculusionViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ConculusionViewController") as! FirstViewController
         
         let selfViewControllers = [selfFirstViewController, selfSecondViewController]
-        let nowViewControllers = [nowFirstViewController, nowSecondViewController]
-        let viewControllers = [selfViewControllers, nowViewControllers]
+        let nowViewControllers = [nowFirstViewController, nowSecondViewController, nowThirdViewController, nowForthViewController, nowFifthViewController]
+        let futureViewControllers = [futureFirstViewController, futureSecondViewController, futureThirdViewController, futureForthViewController]
+        let conculusionViewControllers = [conculusionViewController]
+        let viewControllers = [selfViewControllers, nowViewControllers, futureViewControllers, conculusionViewControllers]
         
         pagingMenuController = self.childViewControllers.first as? PagingMenuController
         
