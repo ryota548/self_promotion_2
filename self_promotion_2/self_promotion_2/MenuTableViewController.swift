@@ -52,5 +52,6 @@ class MenuTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         delegate?.menuControllerDidSelectRow(indexPath)
+        
     }
 }

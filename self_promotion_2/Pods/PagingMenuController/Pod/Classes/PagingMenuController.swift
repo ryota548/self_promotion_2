@@ -423,7 +423,7 @@ public class PagingMenuController: UIViewController, UIScrollViewDelegate {
     
     // MARK: - Page controller
     
-    private func moveToMenuPage(page: Int, animated: Bool) {
+    public func moveToMenuPage(page: Int, animated: Bool) {
         let lastPage = currentPage
         currentPage = page
         currentViewController = pagingViewControllers[page]

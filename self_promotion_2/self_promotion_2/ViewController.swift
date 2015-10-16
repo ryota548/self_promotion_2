@@ -56,13 +56,17 @@ class ViewController: UIViewController,SideMenuDelegate, PagingMenuControllerDel
         
         options.menuHeight = 60
         options.menuDisplayMode = .Standard(widthMode: .Flexible, centerItem: true, scrollingMode: .PagingEnabled)
+        pagingMenuController!.currentPage = 0
         pagingMenuController!.setup(viewControllers: viewControllers[index], options: options)
+        pagingMenuController!.moveToMenuPage(0, animated: true)
+        
         
     }
     
     func sideMenuDidSelectItemAtIndex(index: Int) {
         sideMenu?.toggleMenu()
         storyboardSet(index)
+        
         
     }
     

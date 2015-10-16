@@ -53,14 +53,20 @@
             <objects>
                 <viewController id="r3S-ql-VHH" customClass="PagingMenuController" customModule="PagingMenuController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LHX-go-eKx">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TuK9-Wxp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eGY-vj-meF">
+                                <rect key="frame" x="252" y="387" width="264" height="249"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87165822126547987" green="0.62971450915892679" blue="0.15908374451754384" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ef-ey-Kbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="631" y="1228"/>
+            <point key="canvasLocation" x="555" y="1516"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="aW2-fS-fqx">
@@ -81,7 +87,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sNW-BC-DdW">
-                                <rect key="frame" x="88" y="333" width="549" height="136"/>
+                                <rect key="frame" x="65" y="333" width="549" height="136"/>
                                 <string key="text">・何をどんな風に伝えると人は動くのか
 
 ・人や文化を大切にしたいと思うきっかけ
@@ -118,7 +124,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ENd-Me-YxQ">
-                                <rect key="frame" x="88" y="785" width="569" height="166"/>
+                                <rect key="frame" x="65" y="784" width="569" height="166"/>
                                 <string key="text">・プログラミングを本格的に始めたきっかけ
 
 ・優秀な先輩や後輩と共に働くこと</string>
@@ -147,8 +153,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="会社選びの軸" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7H-HU-Wzp">
+                                <rect key="frame" x="50" y="114" width="210" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3pT-Bj-Fnn">
-                                <rect key="frame" x="50" y="328" width="669" height="494"/>
+                                <rect key="frame" x="59" y="247" width="669" height="494"/>
                                 <string key="text">１. 文化
  　【ガンガンいこうぜ】
 　　とにかく行動して、失敗を確実に次に活かす
@@ -169,12 +181,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="会社選びの軸" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7H-HU-Wzp">
-                                <rect key="frame" x="50" y="114" width="210" height="52"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.047058823530000002" green="0.37254901959999998" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -197,7 +203,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="本日は、よろしくおねがいします" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph6-XQ-Ekl">
-                                <rect key="frame" x="69" y="554" width="630" height="52"/>
+                                <rect key="frame" x="69" y="434" width="630" height="52"/>
                                 <fontDescription key="fontDescription" name="sweet-heavy-calligraphy" family="sweet heavy calligraphy" pointSize="42"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -230,7 +236,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2K8-oH-GWC">
-                                <rect key="frame" x="20" y="240" width="729" height="238"/>
+                                <rect key="frame" x="28" y="239" width="729" height="238"/>
                                 <string key="text">1. たくさんの人に使ってもらえるライブラリの開発
 
 2. PepperやSmartWatchのような最新デバイスでのアプリ開発
@@ -251,7 +257,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QW7-tb-GgN">
-                                <rect key="frame" x="20" y="679" width="729" height="238"/>
+                                <rect key="frame" x="39" y="679" width="729" height="238"/>
                                 <string key="text">1. 常に新しい技術、環境、人に触れ続ける
 
 2. モノ、サービス、考えをとにかくアウトプットしていく
@@ -283,10 +289,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Simulator Screen Shot 2015.10.14 22.50.08.png" translatesAutoresizingMaskIntoConstraints="NO" id="CmZ-bE-3ZT">
-                                <rect key="frame" x="70" y="102" width="289" height="405"/>
+                                <rect key="frame" x="48" y="102" width="289" height="405"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Simulator Screen Shot 2015.10.14 22.49.45.png" translatesAutoresizingMaskIntoConstraints="NO" id="APh-bW-35O">
-                                <rect key="frame" x="393" y="102" width="289" height="405"/>
+                                <rect key="frame" x="426" y="102" width="289" height="405"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="アプリ開発" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSg-sY-2CN">
                                 <rect key="frame" x="48" y="28" width="175" height="52"/>
@@ -295,7 +301,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jnp-t5-CX8">
-                                <rect key="frame" x="83" y="557" width="671" height="315"/>
+                                <rect key="frame" x="48" y="542" width="671" height="315"/>
                                 <string key="text">・三題噺投稿アプリ
 　初めて本格的に作り始めたアプリ
 　App Storeへのリリース審査待ち
@@ -309,7 +315,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fcn-E5-Ul5">
-                                <rect key="frame" x="97" y="868" width="671" height="113"/>
+                                <rect key="frame" x="77" y="848" width="671" height="113"/>
                                 <string key="text">【技術力】が上がれば上がるほど、
 自分のアイデアをより具体的にカタチできる</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -338,7 +344,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6002.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KKg-OJ-lEQ">
-                                <rect key="frame" x="101" y="34" width="567" height="302"/>
+                                <rect key="frame" x="55" y="13" width="693" height="338"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="サマーインターン" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vs6-KU-ckW">
                                 <rect key="frame" x="55" y="382" width="280" height="52"/>
@@ -346,16 +352,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vVg-1c-coq">
-                                <rect key="frame" x="72" y="457" width="569" height="166"/>
-                                <string key="text">・Fringe81 (2 weeks)
-・dwango (5 days)
-・GREE (2 days)
-・basic (2 days)</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="667-CQ-j1u">
                                 <rect key="frame" x="34" y="650" width="701" height="274"/>
                                 <string key="text">・チーム開発においてのスケジューリングの重要性
@@ -366,6 +362,16 @@
 ・自分でライブラリを書いてみることで、
 　人気のライブラリがなぜ人気であるかが理解できた
 　</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vVg-1c-coq">
+                                <rect key="frame" x="50" y="449" width="569" height="166"/>
+                                <string key="text">・Fringe81 (2 weeks)
+・dwango (5 days)
+・GREE (2 days)
+・basic (2 days)</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -391,8 +397,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pepper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PxA-Wv-kW5">
+                                <rect key="frame" x="36" y="484" width="334" height="179"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="共同研究に関すること" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLS-bH-7m3">
                                 <rect key="frame" x="28" y="37" width="350" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="課外活動" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMv-ZF-4RV">
+                                <rect key="frame" x="20" y="403" width="140" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -404,23 +419,14 @@
 ・クロールしたテキストを学習し、テキストの自動生成
 
 例：【カープ女子】のTweetを集め、学習することで、
-カープ女子の時kん描くが現れるかどうか
+カープ女子の人格が現れるかどうか
 </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pepper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PxA-Wv-kW5">
-                                <rect key="frame" x="36" y="484" width="334" height="179"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="課外活動" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMv-ZF-4RV">
-                                <rect key="frame" x="20" y="403" width="140" height="52"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5wZ-pi-LK2">
-                                <rect key="frame" x="29" y="681" width="662" height="95"/>
+                                <rect key="frame" x="37" y="657" width="450" height="95"/>
                                 <string key="text">Pepper用のアプリコンテスト
 ３人チームでアイデアを出し開発中
 
@@ -430,10 +436,10 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swifthero.png" translatesAutoresizingMaskIntoConstraints="NO" id="JJx-9L-Jlz">
-                                <rect key="frame" x="48" y="784" width="84" height="81"/>
+                                <rect key="frame" x="48" y="760" width="84" height="81"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N6r-xb-cbm">
-                                <rect key="frame" x="36" y="873" width="662" height="95"/>
+                                <rect key="frame" x="36" y="837" width="662" height="95"/>
                                 <string key="text">サイバーエージェントで行われる1dayイベント
 UI/UXに関するライブラリをチームで開発</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -461,20 +467,14 @@ UI/UXに関するライブラリをチームで開発</string>
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="趣味" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osu-GA-Rlt">
-                                <rect key="frame" x="20" y="28" width="99" height="52"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_2774.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="vz5-a6-85y">
-                                <rect key="frame" x="11" y="130" width="365" height="286"/>
+                                <rect key="frame" x="11" y="95" width="365" height="286"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo 2013-08-13 13 30 24.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tK7-R1-hiL">
-                                <rect key="frame" x="384" y="136" width="372" height="273"/>
+                                <rect key="frame" x="384" y="101" width="372" height="273"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JYM-XV-gfH">
-                                <rect key="frame" x="11" y="464" width="671" height="464"/>
+                                <rect key="frame" x="11" y="424" width="671" height="464"/>
                                 <string key="text">・ソフトボール
 　小学生の頃からなんだかんだで続けている
 　セーフティバント、流打ち、長打、なんでもできる
@@ -485,15 +485,21 @@ UI/UXに関するライブラリをチームで開発</string>
 
 ・ロードバイク
 　大阪→岡山（約２００km）
-　暑すぎて干からびるかと思いました
+　暑すぎて干からびるかという思いをする
 
 　大阪→名古屋(約２００km)
 　吹雪の中、暗闇の山道を下る
-　死ぬかと思いました。</string>
+　死ぬかという思いをする</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="趣味" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osu-GA-Rlt">
+                                <rect key="frame" x="11" y="28" width="71" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -519,8 +525,8 @@ UI/UXに関するライブラリをチームで開発</string>
                                 <rect key="frame" x="40" y="43" width="292" height="405"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="小芝　涼太" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Omm-w1-3po">
-                                <rect key="frame" x="409" y="121" width="284" height="52"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <rect key="frame" x="373" y="113" width="338" height="87"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -554,49 +560,49 @@ UI/UXに関するライブラリをチームで開発</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="こしば　りょうた" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZF-T2-CGL">
-                                <rect key="frame" x="422" y="70" width="240" height="52"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="２１歳：単位は落とさなかったものの就活で挫折" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyM-rg-XYb">
-                                <rect key="frame" x="12" y="726" width="682" height="30"/>
+                                <rect key="frame" x="0.0" y="710" width="682" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="１８歳：同志社大学理工学部電子工学科へ入学" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIj-9c-Q1m">
-                                <rect key="frame" x="15" y="507" width="645" height="30"/>
+                                <rect key="frame" x="8" y="508" width="645" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcS-Pl-HO4">
-                                <rect key="frame" x="4" y="576" width="763" height="30"/>
+                                <rect key="frame" x="21" y="576" width="731" height="32"/>
                                 <string key="text" base64-UTF8="YES">
 77yR77yY5q2z77ya5aG+6Kyb5bir44Gu44OQ44Kk44OI44KS5aeL44KB44KL44CC6YCx77yU44Gn44OQ
-44Kk44OICOOBq+eGseS4reOBmeOCiw
+44Kk44OICOOBq+eGseS4rQ
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="１９歳：バイトの先輩に連れられ週３で徹夜麻雀" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKH-hW-exQ">
-                                <rect key="frame" x="12" y="649" width="682" height="30"/>
+                                <rect key="frame" x="21" y="647" width="640" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="２２歳：今までの自分を改め、大学院受験を決心" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcY-0g-ttT">
-                                <rect key="frame" x="21" y="799" width="660" height="36"/>
+                                <rect key="frame" x="11" y="769" width="660" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.47843137250000001" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="２３歳：充実しすぎた大学院ライフを過ごす" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amO-iM-WnG">
+                                <rect key="frame" x="-16" y="833" width="660" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="２３歳：充実しすぎた大学院ライフを過ごす" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amO-iM-WnG">
-                                <rect key="frame" x="0.0" y="865" width="660" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="こしば　りょうた" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZF-T2-CGL">
+                                <rect key="frame" x="402" y="74" width="280" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -616,6 +622,7 @@ UI/UXに関するライブラリをチームで開発</string>
         <image name="Photo 2013-08-13 13 30 24.jpg" width="3264" height="2448"/>
         <image name="Simulator Screen Shot 2015.10.14 22.49.45.png" width="640" height="1136"/>
         <image name="Simulator Screen Shot 2015.10.14 22.50.08.png" width="640" height="1136"/>
+        <image name="TuK9-Wxp.jpg" width="400" height="400"/>
         <image name="koshiba.jpg" width="300" height="400"/>
         <image name="pepper.jpg" width="950" height="496"/>
         <image name="swifthero.png" width="300" height="300"/>
