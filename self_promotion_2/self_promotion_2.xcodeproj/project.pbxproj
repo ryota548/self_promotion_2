@@ -10,6 +10,17 @@
 		0B92AA020A09B8A26CEDDD19 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48D35E31A1002035E52718A /* Pods.framework */; };
 		6F0F3CDE1BCDDC0E00EB50DB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F3CDD1BCDDC0E00EB50DB /* FirstViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		6F0F3CE01BCDDD2D00EB50DB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F3CDF1BCDDD2D00EB50DB /* SecondViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CE21BD0934100EB50DB /* lit1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CE11BD0934100EB50DB /* lit1.jpg */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CE41BD0939F00EB50DB /* IMG_6002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CE31BD0939F00EB50DB /* IMG_6002.jpg */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CE71BD09C3200EB50DB /* android-logo-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CE51BD09C3200EB50DB /* android-logo-transparent.png */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CE81BD09C3200EB50DB /* pepper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CE61BD09C3200EB50DB /* pepper.jpg */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CEA1BD09CC500EB50DB /* swifthero.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CE91BD09CC500EB50DB /* swifthero.png */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CED1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.49.45.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CEB1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.49.45.png */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CEE1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.50.08.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CEC1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.50.08.png */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CF31BD11B0200EB50DB /* IMG_2774.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CEF1BD11B0200EB50DB /* IMG_2774.JPG */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CF41BD11B0200EB50DB /* koshiba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CF01BD11B0200EB50DB /* koshiba.jpg */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CF51BD11B0200EB50DB /* kssweetheavycalligraphy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CF11BD11B0200EB50DB /* kssweetheavycalligraphy.ttf */; settings = {ASSET_TAGS = (); }; };
+		6F0F3CF61BD11B0200EB50DB /* Photo 2013-08-13 13 30 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CF21BD11B0200EB50DB /* Photo 2013-08-13 13 30 24.jpg */; settings = {ASSET_TAGS = (); }; };
 		6F69AA501BCC8C1F0092A7C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F69AA4F1BCC8C1F0092A7C8 /* AppDelegate.swift */; };
 		6F69AA521BCC8C1F0092A7C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F69AA511BCC8C1F0092A7C8 /* ViewController.swift */; };
 		6F69AA551BCC8C1F0092A7C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F69AA531BCC8C1F0092A7C8 /* Main.storyboard */; };
@@ -41,6 +52,17 @@
 /* Begin PBXFileReference section */
 		6F0F3CDD1BCDDC0E00EB50DB /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		6F0F3CDF1BCDDD2D00EB50DB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6F0F3CE11BD0934100EB50DB /* lit1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lit1.jpg; sourceTree = "<group>"; };
+		6F0F3CE31BD0939F00EB50DB /* IMG_6002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_6002.jpg; sourceTree = "<group>"; };
+		6F0F3CE51BD09C3200EB50DB /* android-logo-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-logo-transparent.png"; sourceTree = "<group>"; };
+		6F0F3CE61BD09C3200EB50DB /* pepper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pepper.jpg; sourceTree = "<group>"; };
+		6F0F3CE91BD09CC500EB50DB /* swifthero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swifthero.png; sourceTree = "<group>"; };
+		6F0F3CEB1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.49.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2015.10.14 22.49.45.png"; sourceTree = "<group>"; };
+		6F0F3CEC1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.50.08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2015.10.14 22.50.08.png"; sourceTree = "<group>"; };
+		6F0F3CEF1BD11B0200EB50DB /* IMG_2774.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2774.JPG; sourceTree = "<group>"; };
+		6F0F3CF01BD11B0200EB50DB /* koshiba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koshiba.jpg; sourceTree = "<group>"; };
+		6F0F3CF11BD11B0200EB50DB /* kssweetheavycalligraphy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kssweetheavycalligraphy.ttf; sourceTree = "<group>"; };
+		6F0F3CF21BD11B0200EB50DB /* Photo 2013-08-13 13 30 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo 2013-08-13 13 30 24.jpg"; sourceTree = "<group>"; };
 		6F69AA4C1BCC8C1F0092A7C8 /* self_promotion_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = self_promotion_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F69AA4F1BCC8C1F0092A7C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F69AA511BCC8C1F0092A7C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +143,17 @@
 		6F69AA4E1BCC8C1F0092A7C8 /* self_promotion_2 */ = {
 			isa = PBXGroup;
 			children = (
+				6F0F3CEF1BD11B0200EB50DB /* IMG_2774.JPG */,
+				6F0F3CF01BD11B0200EB50DB /* koshiba.jpg */,
+				6F0F3CF11BD11B0200EB50DB /* kssweetheavycalligraphy.ttf */,
+				6F0F3CF21BD11B0200EB50DB /* Photo 2013-08-13 13 30 24.jpg */,
+				6F0F3CEB1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.49.45.png */,
+				6F0F3CEC1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.50.08.png */,
+				6F0F3CE91BD09CC500EB50DB /* swifthero.png */,
+				6F0F3CE51BD09C3200EB50DB /* android-logo-transparent.png */,
+				6F0F3CE61BD09C3200EB50DB /* pepper.jpg */,
+				6F0F3CE31BD0939F00EB50DB /* IMG_6002.jpg */,
+				6F0F3CE11BD0934100EB50DB /* lit1.jpg */,
 				6F69AA4F1BCC8C1F0092A7C8 /* AppDelegate.swift */,
 				6F69AA7D1BCCD48B0092A7C8 /* SideMenu.swift */,
 				6F69AA7F1BCCD4C10092A7C8 /* MenuTableViewController.swift */,
@@ -267,9 +300,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0F3CE81BD09C3200EB50DB /* pepper.jpg in Resources */,
 				6F69AA5A1BCC8C1F0092A7C8 /* LaunchScreen.storyboard in Resources */,
+				6F0F3CE21BD0934100EB50DB /* lit1.jpg in Resources */,
+				6F0F3CEA1BD09CC500EB50DB /* swifthero.png in Resources */,
 				6F69AA571BCC8C1F0092A7C8 /* Assets.xcassets in Resources */,
+				6F0F3CF51BD11B0200EB50DB /* kssweetheavycalligraphy.ttf in Resources */,
+				6F0F3CF31BD11B0200EB50DB /* IMG_2774.JPG in Resources */,
+				6F0F3CF61BD11B0200EB50DB /* Photo 2013-08-13 13 30 24.jpg in Resources */,
 				6F69AA551BCC8C1F0092A7C8 /* Main.storyboard in Resources */,
+				6F0F3CF41BD11B0200EB50DB /* koshiba.jpg in Resources */,
+				6F0F3CE41BD0939F00EB50DB /* IMG_6002.jpg in Resources */,
+				6F0F3CE71BD09C3200EB50DB /* android-logo-transparent.png in Resources */,
+				6F0F3CED1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.49.45.png in Resources */,
+				6F0F3CEE1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.50.08.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

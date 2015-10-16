@@ -18,6 +18,8 @@ class MenuTableViewController: UITableViewController {
     
     var delegate : MenuTableViewControllerDelegate?
     var tableData : Array<String> = []
+    var pagingMenuController: PagingMenuController?
+    
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
@@ -50,6 +52,5 @@ class MenuTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         delegate?.menuControllerDidSelectRow(indexPath)
-        
     }
 }
