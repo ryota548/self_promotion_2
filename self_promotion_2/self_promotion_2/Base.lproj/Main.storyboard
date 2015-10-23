@@ -52,6 +52,10 @@
         <scene sceneID="U4c-tR-2LK">
             <objects>
                 <viewController id="r3S-ql-VHH" customClass="PagingMenuController" customModule="PagingMenuController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tbZ-TB-pRS"/>
+                        <viewControllerLayoutGuide type="bottom" id="y4e-Kr-VgQ"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LHX-go-eKx">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -236,10 +240,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2K8-oH-GWC">
-                                <rect key="frame" x="28" y="239" width="729" height="238"/>
+                                <rect key="frame" x="28" y="239" width="729" height="285"/>
                                 <string key="text">1. たくさんの人に使ってもらえるライブラリの開発
 
-2. PepperやSmartWatchのような最新デバイスでのアプリ開発
+2. PepperやAppleWatchのような最新デバイスでのアプリ開発
 
 3. 全てのハッカソンやコンテストで優勝にこだわる
 
@@ -435,13 +439,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swifthero.png" translatesAutoresizingMaskIntoConstraints="NO" id="JJx-9L-Jlz">
-                                <rect key="frame" x="48" y="760" width="84" height="81"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RaspberryPi.png" translatesAutoresizingMaskIntoConstraints="NO" id="m1b-yX-hiA">
+                                <rect key="frame" x="37" y="750" width="150" height="103"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N6r-xb-cbm">
-                                <rect key="frame" x="36" y="837" width="662" height="95"/>
-                                <string key="text">サイバーエージェントで行われる1dayイベント
-UI/UXに関するライブラリをチームで開発</string>
+                                <rect key="frame" x="37" y="856" width="662" height="95"/>
+                                <string key="text">学内プロジェクト実習
+快適な睡眠環境システムの構築</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -620,11 +624,11 @@ UI/UXに関するライブラリをチームで開発</string>
         <image name="IMG_2774.JPG" width="3264" height="2448"/>
         <image name="IMG_6002.jpg" width="1024" height="685"/>
         <image name="Photo 2013-08-13 13 30 24.jpg" width="3264" height="2448"/>
+        <image name="RaspberryPi.png" width="2553" height="2647"/>
         <image name="Simulator Screen Shot 2015.10.14 22.49.45.png" width="640" height="1136"/>
         <image name="Simulator Screen Shot 2015.10.14 22.50.08.png" width="640" height="1136"/>
         <image name="TuK9-Wxp.jpg" width="400" height="400"/>
         <image name="koshiba.jpg" width="300" height="400"/>
         <image name="pepper.jpg" width="950" height="496"/>
-        <image name="swifthero.png" width="300" height="300"/>
     </resources>
 </document>
