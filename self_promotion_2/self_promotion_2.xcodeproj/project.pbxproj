@@ -23,6 +23,7 @@
 		6F0F3CF61BD11B0200EB50DB /* Photo 2013-08-13 13 30 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F3CF21BD11B0200EB50DB /* Photo 2013-08-13 13 30 24.jpg */; settings = {ASSET_TAGS = (); }; };
 		6F0F443E1BD1C04400EB50DB /* TuK9-Wxp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F443D1BD1C04400EB50DB /* TuK9-Wxp.jpg */; settings = {ASSET_TAGS = (); }; };
 		6F14E6FA1BD9F3A300860EDA /* RaspberryPi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F14E6F91BD9F3A300860EDA /* RaspberryPi.png */; settings = {ASSET_TAGS = (); }; };
+		6F14E6FC1BDB415500860EDA /* dbc2524fb187c7003a4c25cb1a2d610e.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F14E6FB1BDB415500860EDA /* dbc2524fb187c7003a4c25cb1a2d610e.png */; settings = {ASSET_TAGS = (); }; };
 		6F69AA501BCC8C1F0092A7C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F69AA4F1BCC8C1F0092A7C8 /* AppDelegate.swift */; };
 		6F69AA521BCC8C1F0092A7C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F69AA511BCC8C1F0092A7C8 /* ViewController.swift */; };
 		6F69AA551BCC8C1F0092A7C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F69AA531BCC8C1F0092A7C8 /* Main.storyboard */; };
@@ -67,6 +68,7 @@
 		6F0F3CF21BD11B0200EB50DB /* Photo 2013-08-13 13 30 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo 2013-08-13 13 30 24.jpg"; sourceTree = "<group>"; };
 		6F0F443D1BD1C04400EB50DB /* TuK9-Wxp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TuK9-Wxp.jpg"; sourceTree = "<group>"; };
 		6F14E6F91BD9F3A300860EDA /* RaspberryPi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RaspberryPi.png; sourceTree = "<group>"; };
+		6F14E6FB1BDB415500860EDA /* dbc2524fb187c7003a4c25cb1a2d610e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dbc2524fb187c7003a4c25cb1a2d610e.png; sourceTree = "<group>"; };
 		6F69AA4C1BCC8C1F0092A7C8 /* self_promotion_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = self_promotion_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F69AA4F1BCC8C1F0092A7C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F69AA511BCC8C1F0092A7C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		6F69AA4E1BCC8C1F0092A7C8 /* self_promotion_2 */ = {
 			isa = PBXGroup;
 			children = (
+				6F14E6FB1BDB415500860EDA /* dbc2524fb187c7003a4c25cb1a2d610e.png */,
 				6F14E6F91BD9F3A300860EDA /* RaspberryPi.png */,
 				6F0F443D1BD1C04400EB50DB /* TuK9-Wxp.jpg */,
 				6F0F3CEF1BD11B0200EB50DB /* IMG_2774.JPG */,
@@ -322,6 +325,7 @@
 				6F0F3CE71BD09C3200EB50DB /* android-logo-transparent.png in Resources */,
 				6F0F3CED1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.49.45.png in Resources */,
 				6F0F3CEE1BD0AE4300EB50DB /* Simulator Screen Shot 2015.10.14 22.50.08.png in Resources */,
+				6F14E6FC1BDB415500860EDA /* dbc2524fb187c7003a4c25cb1a2d610e.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

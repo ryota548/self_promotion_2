@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="-60" y="547"/>
         </scene>
-        <!--逆求人フェスティバル-->
+        <!--サポーターズ-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="self_promotion_2" customModuleProvider="target" sceneMemberID="viewController">
@@ -36,7 +36,7 @@
                             <segue destination="r3S-ql-VHH" kind="embed" id="xph-CK-ZxF"/>
                         </connections>
                     </containerView>
-                    <navigationItem key="navigationItem" title="逆求人フェスティバル" id="MI5-hP-SxD">
+                    <navigationItem key="navigationItem" title="サポーターズ" id="MI5-hP-SxD">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="lRV-QD-EeI">
                             <connections>
                                 <action selector="toggleSideMenu:" destination="BYZ-38-t0r" id="Vwf-Ha-7aj"/>
@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="631" y="547"/>
+            <point key="canvasLocation" x="440" y="328"/>
         </scene>
         <!--Paging Menu Controller-->
         <scene sceneID="U4c-tR-2LK">
@@ -60,11 +60,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TuK9-Wxp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eGY-vj-meF">
-                                <rect key="frame" x="252" y="387" width="264" height="249"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dbc2524fb187c7003a4c25cb1a2d610e.png" translatesAutoresizingMaskIntoConstraints="NO" id="0G4-Zn-HTH">
+                                <rect key="frame" x="61" y="309" width="646" height="405"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.87165822126547987" green="0.62971450915892679" blue="0.15908374451754384" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
@@ -627,7 +627,7 @@
         <image name="RaspberryPi.png" width="2553" height="2647"/>
         <image name="Simulator Screen Shot 2015.10.14 22.49.45.png" width="640" height="1136"/>
         <image name="Simulator Screen Shot 2015.10.14 22.50.08.png" width="640" height="1136"/>
-        <image name="TuK9-Wxp.jpg" width="400" height="400"/>
+        <image name="dbc2524fb187c7003a4c25cb1a2d610e.png" width="1041" height="1041"/>
         <image name="koshiba.jpg" width="300" height="400"/>
         <image name="pepper.jpg" width="950" height="496"/>
     </resources>
